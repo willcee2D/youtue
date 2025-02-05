@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YTClone</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/main.css"/>
+</head>
+<body>
+
+    <header>
+        <div class="left">
+            <i class="bi bi-list"></i>
+            <i class="bi bi-youtube"></i>
+        </div>
+
+        <div class="middle">
+            <div class="search-container">
+                <input type="text" name="search" placeholder="Search..." id="search">
+                <i class="bi bi-search" title="search"></i>
+            </div>
+            <i class="bi bi-mic-fill" ></i>
+        </div>
+
+
+        <div class="right">
+            <i class="bi bi-three-dots-vertical"></i>
+            <button>
+                <i class="bi bi-person-circle"></i>
+               <span>Signin</span>
+            </button>
+        </div>
+    </header>
+    <!-- main content of the page -->
+    <main>
+        <!-- single video container -->
+        <div class="vid">
+            <iframe width="100%" height="400" src="https://www.youtube.com/embed/Zl9vA3mT9lE?si=LWC5vFj-GwyzIZLp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+       <div class="vid-top">
+            <h3 class="vid-long-title">Racist Woman Insults Black Soldier On Plane, Next Day She Sees News and Realizes She Made a Mistake</h3>
+           
+            <div class="vid-actions">
+                <div class="group-1">
+                    <div class="light-channel">
+                        <i class="bi bi-people"></i>
+                        
+                        <div class="inner-light">
+                            <strong>A great light channel</strong> <br>
+                           <span>66k subscribers</span>
+                        </div>
+                        
+                    </div>
+                    <button class="channel-btn vid-join">join</button>
+                    <button class="channel-btn vid-subscribe">subscribe</button>
+                </div>
+
+                <div class="group-2">
+                   <div class="button-group">
+                         <button class="channel-btn thumbs-up">
+                             <i class="bi bi-hand-thumbs-up"></i>1.5k Likes
+                        </button>
+
+                        <button class="channel-btn thumbs-down">
+                            <i class="bi bi-hand-thumbs-down"></i>
+                        </button>
+                    </div>
+
+               
+
+                                            
+                            <button class="share">
+                                <i class="bi bi-reply"></i>
+                            </button>
+                            <button class="download">
+                                <i class="bi bi-download"></i>
+                            </button>
+                            <button class="horizontal-dots">
+                            <i class="bi bi-three-dots"></i>
+                        </button>
+                  </div>        
+            </div>
+          <!-- video description-->
+            <div class="vid-description">
+                <strong class="view-info">53k views 1 month ago</strong>
+                <p class="desc">
+                     A privileged corporate executive, blinded by her own entitlement and subtle racism,
+                     clashes with a Black soldier on a flight, dismissing his worth and resenting his presence in first class. When she later discovers his heartbreaking struggle to save his
+                      critically ill daughter, her prejudices are confronted head-on. What begins as an act of guilt-driven charity transforms into a journey of redemption, as she steps
+                       into his world, learns the power of compassion, and rebuilds her life around empathy, advocacy, and the bonds formed through shared humanity
+                     <span class="view-more">
+                         More...
+                     </span>
+                </p>
+            </div>
+
+
+            <div class="vid-comments">
+                <div class="head">
+                    <span class="count">105 comments</span>
+                    <span class="sort">
+                        <i class="bi bi-filter-left"></i>
+                        sort by
+                    </span>
+                </div>
+
+                <div class="add-comment">
+                    <i class="bi bi-person-circle"></i>
+                    <textarea name="comment" id="add-comment">Add a comment</textarea>
+                </div>
+
+            </div>
+
+            <div class="vid-comments">
+                <div class="comment-item">
+                    <div class="comment-icon"></div>
+                    <div class="comment-details">
+                        <div class="comment-tittle">@williams 5 days ago</div>
+                            <div class="comment-body">
+                                <div class="text">
+                                    See old papa doc like me shedding profuse tears of joy at this exhilarating sweet story.
+                                    I am thrilled and wowed by the joyful transformation of Julia Prescot and the difference 
+                                    it brought to the life of the soldier and her ill daughter. So much lessons from the story.
+                                    Made my day. Dr Emeka Agbasi, Family Physician, Anambra State, Nigeria.
+                              </div>
+                          <div class="reactions">
+                                    <button class="button.channel-btn thumbs-up">
+                                        <i class="bi bi-hand-thumbs-up"></i>
+                                        10
+                                    </button>
+                                   <button class="button channel-btn thumbs-down">
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                    2
+                                   </button>
+                                   <div class="button channel-btn reply">reply</div>
+                          </div>
+                          
+                          
+                          
+                                </div>
+
+                     </div>
+                </div>
+            </div>
+
+
+      </div>
+
+        </div>
+
+        <!-- list of videos -->
+    <div class="vidz">
+
+          <div class="vid-item">
+
+               <div class="image">
+                     <span class="duration">27:48</span>
+              </div>
+
+             <div class="content">
+                <strong class="title">When you start consistent prayer and...</strong>
+                <span class="channel"> A great light channel</span>
+                <span class="bottom-content">
+                    <span class="views">24k views</span>
+                    <span class="longago">3 weeks ago</span>
+                </span>
+             </div>
+             <i class="bi bi-three-dots-vertical"></i>
+        </div>
+
+          <div class="vid-item">
+
+               <div class="image">
+                     <span class="duration">27:48</span>
+              </div>
+
+             <div class="content">
+                <strong class="title">When you start consistent prayer and...</strong>
+                <span class="channel"> A great light channel</span>
+                <span class="bottom-content">
+                    <span class="views">24k views</span>
+                    <span class="longago">3 weeks ago</span>
+                </span>
+             </div>
+             <i class="bi bi-three-dots-vertical"></i>
+        </div>
+
+          <div class="vid-item">
+
+               <div class="image">
+                     <span class="duration">27:48</span>
+              </div>
+
+             <div class="content">
+                <strong class="title">When you start consistent prayer and...</strong>
+                <span class="channel"> A great light channel</span>
+                <span class="bottom-content">
+                    <span class="views">24k views</span>
+                    <span class="longago">3 weeks ago</span>
+                </span>
+             </div>
+             <i class="bi bi-three-dots-vertical"></i>
+        </div>
+
+          <div class="vid-item">
+
+               <div class="image">
+                     <span class="duration">27:48</span>
+              </div>
+
+             <div class="content">
+                <strong class="title">When you start consistent prayer and...</strong>
+                <span class="channel"> A great light channel</span>
+                <span class="bottom-content">
+                    <span class="views">24k views</span>
+                    <span class="longago">3 weeks ago</span>
+                </span>
+             </div>
+             <i class="bi bi-three-dots-vertical"></i>
+        </div>
+
+          <div class="vid-item">
+
+               <div class="image">
+                     <span class="duration">27:48</span>
+              </div>
+
+             <div class="content">
+                <strong class="title">When you start consistent prayer and...</strong>
+                <span class="channel"> A great light channel</span>
+                <span class="bottom-content">
+                    <span class="views">24k views</span>
+                    <span class="longago">3 weeks ago</span>
+                </span>
+             </div>
+             <i class="bi bi-three-dots-vertical"></i>
+        </div>
+
+          <div class="vid-item">
+
+               <div class="image">
+                     <span class="duration">27:48</span>
+              </div>
+
+             <div class="content">
+                <strong class="title">When you start consistent prayer and...</strong>
+                <span class="channel"> A great light channel</span>
+                <span class="bottom-content">
+                    <span class="views">24k views</span>
+                    <span class="longago">3 weeks ago</span>
+                </span>
+             </div>
+             <i class="bi bi-three-dots-vertical"></i>
+        </div>
+
+          <div class="vid-item">
+
+               <div class="image">
+                     <span class="duration">27:48</span>
+              </div>
+
+             <div class="content">
+                <strong class="title">When you start consistent prayer and...</strong>
+                <span class="channel"> A great light channel</span>
+                <span class="bottom-content">
+                    <span class="views">24k views</span>
+                    <span class="longago">3 weeks ago</span>
+                </span>
+             </div>
+             <i class="bi bi-three-dots-vertical"></i>
+        </div>
+
+          <div class="vid-item">
+
+               <div class="image">
+                     <span class="duration">27:48</span>
+              </div>
+
+             <div class="content">
+                <strong class="title">When you start consistent prayer and...</strong>
+                <span class="channel"> A great light channel</span>
+                <span class="bottom-content">
+                    <span class="views">24k views</span>
+                    <span class="longago">3 weeks ago</span>
+                </span>
+             </div>
+             <i class="bi bi-three-dots-vertical"></i>
+        </div>
+
+          <div class="vid-item">
+
+               <div class="image">
+                     <span class="duration">27:48</span>
+              </div>
+
+             <div class="content">
+                <strong class="title">When you start consistent prayer and...</strong>
+                <span class="channel"> A great light channel</span>
+                <span class="bottom-content">
+                    <span class="views">24k views</span>
+                    <span class="longago">3 weeks ago</span>
+                </span>
+             </div>
+             <i class="bi bi-three-dots-vertical"></i>
+        </div>
+
+          <div class="vid-item">
+
+               <div class="image">
+                     <span class="duration">27:48</span>
+              </div>
+
+             <div class="content">
+                <strong class="title">When you start consistent prayer and...</strong>
+                <span class="channel"> A great light channel</span>
+                <span class="bottom-content">
+                    <span class="views">24k views</span>
+                    <span class="longago">3 weeks ago</span>
+                </span>
+             </div>
+             <i class="bi bi-three-dots-vertical"></i>
+        </div>
+
+          <div class="vid-item">
+
+               <div class="image">
+                     <span class="duration">27:48</span>
+              </div>
+
+             <div class="content">
+                <strong class="title">When you start consistent prayer and...</strong>
+                <span class="channel"> A great light channel</span>
+                <span class="bottom-content">
+                    <span class="views">24k views</span>
+                    <span class="longago">3 weeks ago</span>
+                </span>
+             </div>
+             <i class="bi bi-three-dots-vertical"></i>
+        </div>
+
+          <div class="vid-item">
+
+               <div class="image">
+                     <span class="duration">27:48</span>
+              </div>
+
+             <div class="content">
+                <strong class="title">When you start consistent prayer and...</strong>
+                <span class="channel"> A great light channel</span>
+                <span class="bottom-content">
+                    <span class="views">24k views</span>
+                    <span class="longago">3 weeks ago</span>
+                </span>
+             </div>
+             <i class="bi bi-three-dots-vertical"></i>
+        </div>
+
+          <div class="vid-item">
+
+               <div class="image">
+                     <span class="duration">27:48</span>
+              </div>
+
+             <div class="content">
+                <strong class="title">When you start consistent prayer and...</strong>
+                <span class="channel"> A great light channel</span>
+                <span class="bottom-content">
+                    <span class="views">24k views</span>
+                    <span class="longago">3 weeks ago</span>
+                </span>
+             </div>
+             <i class="bi bi-three-dots-vertical"></i>
+        </div>
+
+          <div class="vid-item">
+
+               <div class="image">
+                     <span class="duration">27:48</span>
+              </div>
+
+             <div class="content">
+                <strong class="title">When you start consistent prayer and...</strong>
+                <span class="channel"> A great light channel</span>
+                <span class="bottom-content">
+                    <span class="views">24k views</span>
+                    <span class="longago">3 weeks ago</span>
+                </span>
+             </div>
+             <i class="bi bi-three-dots-vertical"></i>
+        </div>
+
+          <div class="vid-item">
+
+               <div class="image">
+                     <span class="duration">27:48</span>
+              </div>
+
+             <div class="content">
+                <strong class="title">When you start consistent prayer and...</strong>
+                <span class="channel"> A great light channel</span>
+                <span class="bottom-content">
+                    <span class="views">24k views</span>
+                    <span class="longago">3 weeks ago</span>
+                </span>
+             </div>
+             <i class="bi bi-three-dots-vertical"></i>
+        </div>
+
+          <div class="vid-item">
+
+               <div class="image">
+                     <span class="duration">27:48</span>
+              </div>
+
+             <div class="content">
+                <strong class="title">When you start consistent prayer and...</strong>
+                <span class="channel"> A great light channel</span>
+                <span class="bottom-content">
+                    <span class="views">24k views</span>
+                    <span class="longago">3 weeks ago</span>
+                </span>
+             </div>
+             <i class="bi bi-three-dots-vertical"></i>
+        </div>
+
+          <div class="vid-item">
+
+               <div class="image">
+                     <span class="duration">27:48</span>
+              </div>
+
+             <div class="content">
+                <strong class="title">When you start consistent prayer and...</strong>
+                <span class="channel"> A great light channel</span>
+                <span class="bottom-content">
+                    <span class="views">24k views</span>
+                    <span class="longago">3 weeks ago</span>
+                </span>
+             </div>
+             <i class="bi bi-three-dots-vertical"></i>
+        </div>
+
+
+
+    </div>
+    </main>
+
+
+</body>
+</html>

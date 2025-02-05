@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+i.bi{
+    font-size: 24px;
+    margin: 0 10px;
+}
+header{
+    height: 55px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 20px;
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+
+}
+
+.middle{
+    display: flex;
+    align-items: center;
+}
+ 
+/* Styling the right section of thr nav bar*/
+.right{
+    display: flex;
+    align-items: center;
+}
+.right button{
+    padding:8px 14px;
+    border: 0;
+    border-radius: 18px;
+    display:flex ;
+    align-items: center;
+    color: rgba(0, 0, 255, 0.545);
+}
+
+.right button:hover{
+background-color: rgba(0, 106, 255, 0.518);
+    cursor:pointer;
+}
+
+i.bi-three-dots-vertical{
+    cursor:pointer;
+}
+
+/* search bar*/
+.search-container{
+    border: 1px solid #ccc;
+    width: 400px;
+    padding: 5px 24px;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+}
+
+#search{
+    width: 90%;
+    height: 100%;
+    border: 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 6px 10px;
+
+}
+
+i.bi-mic-fill{
+    padding: 20px;
+    background-color: #f4f4f474;
+    border-radius: 60%;
+}
+
+i.bi-mic-fill:hover{
+    background-color: #f4f4f4;
+    cursor: pointer;
+}
+
+i.bi-youtube:hover{
+color: red;
+cursor: pointer;
+}
+
+
+
+/* left */
+.left{
+    display: flex;
+    align-items: center;
+
+}
+
+i.bi-list,i.bi-youtube{
+    width:30px;
+    height:30px;
+    padding:10px;
+    
+}
+
+i.bi-list:hover{
+    background-color: #f4f4f474;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+main{
+    display: flex;
+    margin: 0 50px;
+    position: relative;
+    top: 55px;
+}
+
+.vid{
+    width: 65%;
+    padding-right: 10px;
+}
+
+.vidz{
+    width: 35%;
+    padding-left: 10px;
+}  
+.vid-item{
+    display: flex;
+    height: 110px;
+}
+
+.image{
+    height: 50%;
+    background-image: url(../img/hqdefault\ \(1\).jpg);
+    width: 450px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.content{
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content .title{
+    text-transform: uppercase;
+}
+
+.bottom-content{
+    color: #333;
+}
+
+.vid-actions, .group-1, .group-2, .button-group, .light-channel{
+    display: flex;
+    height: 45px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.group-2  button, .channel-btn{
+    height: 45px;
+    border-radius: 20px;
+    border: 0;
+    outline: none;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 8px 10px;
+    margin: 0 2px;
+}
+
+.group-2 button:hover{
+    cursor: pointer;
+    background-color: #ccc;
+
+}
+.button-group button:nth-child(1){
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    margin: 0;
+    border-right: 1px solid #ccc;
+}
+
+.button-group button:nth-child(2){
+    border-top-left-radius:0;
+    border-bottom-left-radius: 0;
+    margin: 0;
+}
+
+.inner-light{
+font-size: 14px;
+
+}
+
+.vid-subscribe, .vid-join{
+    background-color: black;
+    color: #f4f4f4;
+    padding: 4px 24px;
+}
+
+.vid-join{
+    margin: 0 4px;
+}
+
+/* video description */
+.vid-description{
+    border-radius: 4px;
+    background-color: #ccc;
+    padding: 8px;
+    margin-top: 4px;
+}
+
+.vid-comments .div.head{
+   height: 50px;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+}
+
+div.head .count{
+    font-weight: 900;
+
+}
+  .add-comment {
+    height: 60px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+  }
+
+  .add-comment .bi-person-circle{
+    width: 30px;
+  }
+   .add-comment #add-comment{
+    width:calc(100% - 30px);
+    border: 0;
+    border-bottom:1px solid black;
+   }
+   
+.reactions{
+    display: flex;
+    margin-top: 4px;
+}
